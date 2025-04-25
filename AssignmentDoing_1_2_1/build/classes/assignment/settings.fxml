@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment.sceneController">
+   <children>
+      <Hyperlink layoutX="557.0" layoutY="384.0" onAction="#menu" text="menu" textFill="#a40707" />
+   </children>
+</AnchorPane>

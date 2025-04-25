@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="stage1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="545.0" prefWidth="968.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment.sceneController">
+   <children>
+       <Hyperlink fx:id="link" focusTraversable="false" layoutX="904.0" layoutY="507.0" onAction="#menu" text="menu" textFill="#a40707" />
+      <Rectangle fx:id="myRect" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="18.0" layoutX="448.0" layoutY="110.0" onKeyPressed="#movement" stroke="BLACK" strokeType="INSIDE" width="13.0" />
+      <Line fx:id="line28" endX="119.79998779296875" layoutX="333.0" layoutY="83.0" startX="-235.6666717529297" startY="7.62939453125E-6" strokeWidth="4.0" />
+      <Line fx:id="line27" endX="189.79998779296875" endY="7.62939453125E-6" layoutX="667.0" layoutY="83.0" startX="-203.79998779296875" startY="7.62939453125E-6" strokeWidth="4.0" />
+      <Line endX="189.79998779296875" endY="-11.666656494140625" layoutX="671.0" layoutY="95.0" startX="189.79998779296875" startY="394.8666687011719" strokeWidth="4.0" />
+      <Line endX="189.79998779296875" endY="-11.666656494140625" layoutX="-95.0" layoutY="95.0" startX="189.79998779296875" startY="394.8666687011719" strokeWidth="4.0" />
+      <Line fx:id="line5" endX="-167.53335571289062" endY="27.800018310546875" layoutX="650.0" layoutY="86.0" startX="-167.53334045410156" startY="7.62939453125E-6" strokeWidth="4.0" />
+      <Line fx:id="line37" endX="-167.53335571289062" endY="27.800018310546875" layoutX="729.0" layoutY="85.0" startX="-167.53334045410156" startY="7.62939453125E-6" strokeWidth="4.0" />
+      <Line endX="-167.53335571289062" endY="27.800018310546875" layoutX="784.0" layoutY="85.0" startX="-167.53334045410156" startY="7.62939453125E-6" strokeWidth="4.0" />
+      <Line endX="-167.53335571289062" endY="18.733322143554688" layoutX="397.0" layoutY="89.0" startX="-167.53334045410156" startY="7.62939453125E-6" strokeWidth="4.0" />
+      <Line fx:id="line4" endX="-168.53341674804688" endY="89.80001831054688" layoutX="598.0" layoutY="137.0" startX="-167.53338623046875" startY="-7.8000030517578125" strokeWidth="4.0" />
+      <Line fx:id="line3" endX="-212.53338623046875" endY="27.800018310546875" layoutX="645.0" layoutY="150.0" startX="-190.33334350585938" startY="27.800018310546875" strokeWidth="4.0" />
+      <Line fx:id="line38" endX="-167.53335571289062" endY="27.800018310546875" layoutX="740.0" layoutY="118.0" startX="-167.53334045410156" startY="7.62939453125E-6" strokeWidth="4.0" />
+      <Line endX="-167.53338623046875" endY="100.00001525878906" layoutX="848.0" layoutY="136.0" startX="-167.53338623046875" startY="-14.133331298828125" strokeWidth="4.0" />
+      <Line endX="-212.53338623046875" endY="27.800018310546875" layoutX="866.0" layoutY="207.0" startX="-190.33334350585938" startY="27.800018310546875" strokeWidth="4.0" />
+      <Line fx:id="line1" endX="-169.3333740234375" endY="140.80001831054688" layoutX="676.0" layoutY="147.0" startX="-167.53338623046875" startY="-22.99999237060547" strokeWidth="4.0" />
+      <Line endX="-219.86663818359375" endY="27.800018310546875" layoutX="699.0" layoutY="173.0" startX="-190.33334350585938" startY="27.800018310546875" strokeWidth="4.0" />
+      <Line fx:id="line7" endX="-167.53335571289062" endY="27.800018310546875" layoutX="625.0" layoutY="229.0" startX="-167.53334045410156" startY="7.62939453125E-6" strokeWidth="4.0" />
+      <Line fx:id="line6" endX="-212.53338623046875" endY="27.800018310546875" layoutX="644.0" layoutY="201.0" startX="-190.33334350585938" startY="27.800018310546875" strokeWidth="4.0" />
+      <Line fx:id="line9" endX="-212.53338623046875" endY="27.800018310546875" layoutX="467.0" layoutY="233.0" startX="-9.5333251953125" startY="27.800018310546875" strokeWidth="4.0" />
+      <Line fx:id="line30" endX="-89.70489501953125" endY="27.800018310546875" layoutX="435.0" layoutY="101.0" startX="-9.5333251953125" startY="27.800018310546875" strokeWidth="4.0" />
+      <Line fx:id="line25" endX="145.00003051757812" endY="-3.0517578125E-5" layoutX="331.0" layoutY="491.0" startX="-235.6666717529297" startY="7.62939453125E-6" strokeWidth="4.0" />
+      <Line fx:id="line24" endX="108.86666870117188" endY="7.62939453125E-6" layoutX="752.0" layoutY="490.0" startX="-235.6666717529297" startY="7.62939453125E-6" strokeWidth="4.0" />
+      <Line fx:id="line8" endX="-223.33331298828125" endY="27.800018310546875" layoutX="695.0" layoutY="262.0" startX="-190.33334350585938" startY="27.800018310546875" strokeWidth="4.0" />
+      <Line fx:id="line11" endX="-167.53335571289062" endY="27.800018310546875" layoutX="637.0" layoutY="292.0" startX="-167.53334045410156" startY="7.62939453125E-6" strokeWidth="4.0" />
+      <Line fx:id="line10" endX="-168.53341674804688" endY="89.80001831054688" layoutX="594.0" layoutY="273.0" startX="-167.53338623046875" startY="-7.8000030517578125" strokeWidth="4.0" />
+      <Line fx:id="line16" endX="-212.53338623046875" endY="27.800018310546875" layoutX="636.0" layoutY="367.0" startX="-104.26666259765625" startY="27.800018310546875" strokeWidth="4.0" />
+      <Line fx:id="line12" endX="-223.33331298828125" endY="27.800018310546875" layoutX="692.0" layoutY="328.0" startX="-190.33334350585938" startY="27.800018310546875" strokeWidth="4.0" />
+      <Line fx:id="line14" endX="-167.53335571289062" endY="27.800018310546875" layoutX="673.0" layoutY="328.0" startX="-167.53334045410156" startY="7.62939453125E-6" strokeWidth="4.0" />
+      <Line fx:id="line13" endX="-166.33331298828125" endY="37.800018310546875" layoutX="633.0" layoutY="355.0" startX="-166.33331298828125" startY="-1.199981689453125" strokeWidth="4.0" />
+      <Line endX="-228.7049560546875" endY="-1.37158203125" layoutX="738.0" layoutY="291.0" startX="-185.06671142578125" startY="-1.37158203125" strokeWidth="4.0" />
+      <Line endX="-167.53338623046875" endY="64.80001831054688" layoutX="723.0" layoutY="298.0" startX="-167.53338623046875" startY="-7.8000030517578125" strokeWidth="4.0" />
+      <Line fx:id="line15" endX="-200.26666259765625" endY="27.800018310546875" layoutX="736.0" layoutY="337.0" startX="-104.26666259765625" startY="27.800018310546875" strokeWidth="4.0" />
+      <Line fx:id="line17" endX="-166.33331298828125" endY="37.800018310546875" layoutX="698.0" layoutY="405.0" startX="-166.33331298828125" startY="-7.199981689453125" strokeWidth="4.0" />
+      <Line fx:id="line18" endX="-139.86663818359375" endY="75.6666259765625" layoutX="711.0" layoutY="334.0" startX="-139.86663818359375" startY="7.5999755859375" strokeWidth="4.0" />
+      <Line fx:id="line19" endX="-122.86663818359375" endY="-3.3333740234375" layoutX="696.0" layoutY="414.0" startX="-83.73333740234375" startY="-3.3333740234375" strokeWidth="4.0" />
+      <Line fx:id="line21" endX="-131.86663818359375" endY="0.800018310546875" layoutX="708.0" layoutY="435.0" startX="-131.86663818359375" startY="36.5999755859375" strokeWidth="4.0" />
+      <Button blendMode="OVERLAY" layoutX="457.0" layoutY="19.0" mnemonicParsing="false" onAction="#movement" onKeyPressed="#movement" prefHeight="24.0" prefWidth="54.0" />
+      <Button blendMode="OVERLAY" layoutX="880.0" layoutY="245.0" mnemonicParsing="false" onAction="#movement" onKeyPressed="#movement" prefHeight="37.0" prefWidth="47.0" />
+      <Button blendMode="OVERLAY" layoutX="20.0" layoutY="245.0" mnemonicParsing="false" onAction="#movement" onKeyPressed="#movement" prefHeight="37.0" prefWidth="47.0" />
+      <Button blendMode="OVERLAY" layoutX="468.0" layoutY="515.0" mnemonicParsing="false" onAction="#movement" onKeyPressed="#movement" prefHeight="18.0" prefWidth="54.0" />
+      <Line fx:id="line2" endX="-212.53338623046875" endY="27.800018310546875" layoutX="703.0" layoutY="123.0" startX="-9.5333251953125" startY="27.800018310546875" strokeWidth="4.0" />
+      <Hyperlink fx:id="link1" focusTraversable="false" layoutX="857.0" layoutY="508.0" onAction="#restartStage1" text="restart" textFill="#a40707" />
+      <Line fx:id="line23" endX="-139.86663818359375" endY="-11.199951171875" layoutX="720.0" layoutY="447.0" startX="-110.0" startY="-11.199951171875" strokeWidth="4.0" />
+      <Line fx:id="line31" endX="-167.5333251953125" endY="69.39999389648438" layoutX="471.0" layoutY="85.0" startX="-167.53334045410156" startY="7.62939453125E-6" strokeWidth="4.0" />
+      <Line fx:id="line32" endX="-167.5333251953125" endY="69.39999389648438" layoutX="510.0" layoutY="129.0" startX="-167.53334045410156" startY="7.62939453125E-6" strokeWidth="4.0" />
+      <Line fx:id="line20" endX="-215.20001220703125" endY="29.800048828125" layoutX="708.0" layoutY="415.0" startX="-176.33331298828125" startY="29.800048828125" strokeWidth="4.0" />
+      <Line fx:id="line22" endX="-185.20001220703125" endY="21.5999755859375" layoutX="719.0" layoutY="451.0" startX="-143.86663818359375" startY="21.5999755859375" strokeWidth="4.0" />
+      <Line fx:id="line29" endX="-185.20001220703125" endY="21.5999755859375" layoutX="661.0" layoutY="482.0" startX="-143.86663818359375" startY="21.5999755859375" stroke="RED" strokeWidth="4.0" />
+      <Line fx:id="line41" endX="-212.53338623046875" endY="27.800018310546875" layoutX="557.0" layoutY="129.0" startX="-182.5999755859375" startY="27.800018310546875" strokeWidth="4.0" />
+      <Line fx:id="line39" endX="-167.5333251953125" endY="69.39999389648438" layoutX="552.0" layoutY="191.0" startX="-167.53334045410156" startY="7.62939453125E-6" strokeWidth="4.0" />
+      <Line fx:id="line40" endX="-212.53338623046875" endY="27.800018310546875" layoutX="597.0" layoutY="178.0" startX="-182.5999755859375" startY="27.800018310546875" strokeWidth="4.0" />
+      <Line fx:id="line33" endX="-167.5333251953125" endY="69.39999389648438" layoutX="468.0" layoutY="191.0" startX="-167.53334045410156" startY="7.62939453125E-6" strokeWidth="4.0" />
+      <Line fx:id="line35" endX="-126.70491027832031" endY="27.800018310546875" layoutX="311.0" layoutY="127.0" startX="-9.5333251953125" startY="27.800018310546875" strokeWidth="4.0" />
+      <Line endX="-94.19999694824219" endY="27.800018310546875" layoutX="209.0" layoutY="87.0" startX="-29.000015258789062" startY="27.800018310546875" strokeWidth="4.0" />
+      <Line endX="-167.5333251953125" endY="69.39999389648438" layoutX="283.0" layoutY="118.0" startX="-167.53334045410156" startY="7.62939453125E-6" strokeWidth="4.0" />
+      <Line endX="-167.5333251953125" endY="69.39999389648438" layoutX="349.0" layoutY="116.0" startX="-167.53334045410156" startY="7.62939453125E-6" strokeWidth="4.0" />
+      <Line fx:id="line34" endX="-167.5333251953125" endY="93.79998779296875" layoutX="436.0" layoutY="117.0" startX="-167.53334045410156" startY="7.62939453125E-6" strokeWidth="4.0" />
+      <Line endX="-167.5333709716797" endY="33.800018310546875" layoutX="318.0" layoutY="170.0" startX="-167.5333709716797" startY="-15.600006103515625" strokeWidth="4.0" />
+      <Line endX="-94.19999694824219" endY="27.800018310546875" layoutX="243.0" layoutY="180.0" startX="-29.000015258789062" startY="27.800018310546875" strokeWidth="4.0" />
+      <Line endX="-73.00001525878906" endY="-29.199981689453125" layoutX="289.0" layoutY="239.0" startX="-73.00001525878906" startY="40.20001220703125" strokeWidth="4.0" />
+      <Line endX="-122.59999084472656" endY="27.800018310546875" layoutX="245.0" layoutY="253.0" startX="-29.000015258789062" startY="27.800018310546875" strokeWidth="4.0" />
+      <Line endX="-167.5333709716797" endY="107.20001220703125" layoutX="302.0" layoutY="204.0" startX="-167.5333709716797" startY="-15.600006103515625" strokeWidth="4.0" />
+      <Line endX="-181.36184692382812" endY="42.600006103515625" layoutX="611.0" layoutY="268.0" startX="-323.20001220703125" startY="42.600006103515625" strokeWidth="4.0" />
+      <Line endX="-368.53338623046875" endY="109.20001220703125" layoutX="621.0" layoutY="278.0" startX="-368.53338623046875" startY="-15.199981689453125" strokeWidth="4.0" />
+      <Line endX="-368.53338623046875" endY="109.20001220703125" layoutX="654.0" layoutY="328.0" startX="-368.53338623046875" startY="-15.199981689453125" strokeWidth="4.0" />
+      <Line endX="-181.36184692382812" endY="42.600006103515625" layoutX="446.0" layoutY="289.0" startX="-323.20001220703125" startY="42.600006103515625" strokeWidth="4.0" />
+      <Line endX="-291.20001220703125" endY="119.4000244140625" layoutX="484.0" layoutY="305.0" startX="-291.20001220703125" startY="9.79998779296875" strokeWidth="4.0" />
+      <Line endX="-346.4000244140625" endY="77.0" layoutX="481.0" layoutY="336.0" startX="-235.2000274658203" startY="77.0" strokeWidth="4.0" />
+      <Line endX="-291.20001220703125" endY="119.4000244140625" layoutX="523.0" layoutY="373.0" startX="-291.20001220703125" startY="9.79998779296875" strokeWidth="4.0" />
+      <Line endX="-167.53338623046875" endY="100.00001525878906" layoutX="910.0" layoutY="201.0" startX="-167.53338623046875" startY="-14.133331298828125" strokeWidth="4.0" />
+      <Line endX="-167.53338623046875" endY="100.00001525878906" layoutX="832.0" layoutY="290.0" startX="-167.53338623046875" startY="-14.133331298828125" strokeWidth="4.0" />
+      <Line endX="-167.53338623046875" endY="100.00001525878906" layoutX="905.0" layoutY="365.0" startX="-167.53338623046875" startY="-14.133331298828125" strokeWidth="4.0" />
+      <Line endX="-167.53338623046875" endY="100.00001525878906" layoutX="856.0" layoutY="383.0" startX="-167.53338623046875" startY="-14.133331298828125" strokeWidth="4.0" />
+      <Line endX="-212.53338623046875" endY="27.800018310546875" layoutX="762.0" layoutY="148.0" startX="-9.5333251953125" startY="27.800018310546875" strokeWidth="4.0" />
+      <Line fx:id="line211" endX="-155.199951171875" endY="145.20001220703125" layoutX="772.0" layoutY="158.0" startX="-155.199951171875" startY="54.79998779296875" strokeWidth="4.0" />
+      <Line endX="-94.19999694824219" endY="27.800018310546875" layoutX="645.0" layoutY="230.0" startX="-29.000015258789062" startY="27.800018310546875" strokeWidth="4.0" />
+      <Line endX="-165.20001220703125" endY="39.800018310546875" layoutX="714.0" layoutY="216.0" startX="-165.20001220703125" startY="-16.0" strokeWidth="4.0" />
+      <Line endX="-94.19999694824219" endY="27.800018310546875" layoutX="841.0" layoutY="160.0" startX="-29.000015258789062" startY="27.800018310546875" strokeWidth="4.0" />
+      <Line endX="-165.20001220703125" endY="39.800018310546875" layoutX="979.0" layoutY="150.0" startX="-165.20001220703125" startY="-16.0" strokeWidth="4.0" />
+      <Line fx:id="line212" endX="-212.53338623046875" endY="27.800018310546875" layoutX="879.0" layoutY="294.0" startX="-20.20001220703125" startY="27.800018310546875" strokeWidth="4.0" />
+      <Line endX="-167.53338623046875" endY="100.00001525878906" layoutX="512.0" layoutY="364.0" startX="-167.53338623046875" startY="-14.133331298828125" strokeWidth="4.0" />
+      <Line endX="-212.53338623046875" endY="27.800018310546875" layoutX="526.0" layoutY="342.0" startX="-182.5999755859375" startY="27.800018310546875" strokeWidth="4.0" />
+      <Line endX="-212.53338623046875" endY="27.800018310546875" layoutX="553.0" layoutY="398.0" startX="-182.5999755859375" startY="27.800018310546875" strokeWidth="4.0" />
+      <Line endX="-167.53335571289062" endY="18.733322143554688" layoutX="539.0" layoutY="315.0" startX="-167.53334045410156" startY="7.62939453125E-6" strokeWidth="4.0" />
+      <Line fx:id="line26" endX="-368.53338623046875" endY="109.20001220703125" layoutX="784.0" layoutY="349.0" startX="-368.53338623046875" startY="-15.199981689453125" strokeWidth="4.0" />
+      <Line fx:id="line36" endX="-73.0" endY="-19.0" layoutX="351.0" layoutY="239.0" startX="-73.00001525878906" startY="40.20001220703125" strokeWidth="4.0" />
+      <Button focusTraversable="false" layoutX="148.0" layoutY="507.0" mnemonicParsing="false" onAction="#fullScreenStage1" text="Full Screen Switcher" />
+      <Label layoutX="24.0" layoutY="511.0" text="Turn ON Full Screen:" textFill="#a40707" />
+   </children>
+</AnchorPane>
