@@ -1,0 +1,3 @@
+You may run the game through the main file.
+You may run it in NetBeans using javafx and FXML
+You can also run it on Visual Studio using FXML extension and javafx extension while running it as a 'Run with debugger';
